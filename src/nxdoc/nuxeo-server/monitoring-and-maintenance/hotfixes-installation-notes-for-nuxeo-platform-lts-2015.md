@@ -1,11 +1,11 @@
 ---
-title: Hotfixes Installation Notes for Nuxeo Platform LTS 2015
+title: Hotfixes Installation Notes for Nuxeo Platform LTS 2016
 review:
     comment: ''
-    date: '2015-12-01'
+    date: '2016-12-09'
     status: ok
 labels:
-    - content-review-lts2016
+    - lts2016-ok
     - multiexcerpt-include
 toc: true
 confluence:
@@ -13,13 +13,13 @@ confluence:
     ajs-parent-page-title: Monitoring and Maintenance
     ajs-space-key: NXDOC
     ajs-space-name: Nuxeo Platform Developer Documentation
-    canonical: Hotfixes+Installation+Notes+for+Nuxeo+Platform+LTS+2015
+    canonical: Hotfixes+Installation+Notes+for+Nuxeo+Platform+LTS+2016
     canonical_source: >-
-        https://doc.nuxeo.com/display/NXDOC/Hotfixes+Installation+Notes+for+Nuxeo+Platform+LTS+2015
+        https://doc.nuxeo.com/display/NXDOC/Hotfixes+Installation+Notes+for+Nuxeo+Platform+LTS+2016
     page_id: '27592264'
     shortlink: SAalAQ
     shortlink_source: 'https://doc.nuxeo.com/x/SAalAQ'
-    source_link: /display/NXDOC/Hotfixes+Installation+Notes+for+Nuxeo+Platform+LTS+2015
+    source_link: /display/NXDOC/Hotfixes+Installation+Notes+for+Nuxeo+Platform+LTS+2016
 tree_item_index: 1200
 version_override:
     'LTS 2015': 710/admindoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2015
@@ -72,7 +72,7 @@ history:
         version: '1'
 
 ---
-{{{multiexcerpt 'main_content' page='ADMINDOC710:Hotfixes Installation Notes for Nuxeo Platform LTS 2015'}}}
+{{{multiexcerpt 'main_content' page='ADMINDOC810:Hotfixes Installation Notes for Nuxeo Platform LTS 2016'}}}
 
 &nbsp;
 
@@ -85,6 +85,6 @@ history:
 
 {{/panel}}</div><div class="column medium-6">{{#> panel heading='Other Related Documentation'}}
 
-- [List of hotfixes for Nuxeo Platform LTS 205](https://connect.nuxeo.com/nuxeo/site/marketplace/hotfixes/cap-7.10)
+- [List of hotfixes for Nuxeo Platform LTS 2016](https://connect.nuxeo.com/nuxeo/site/marketplace/hotfixes/cap-8.10)
 
 {{/panel}}</div></div>
