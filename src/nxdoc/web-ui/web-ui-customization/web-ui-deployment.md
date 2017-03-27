@@ -86,7 +86,7 @@ About the Web UI structure:
 
 In order to extend the Web UI (outside Studio), you'll need to create your own marketplace which will deploy your own resources in `$NUXEO_SERVER/nxserver/nuxeo.war/ui`.
 
-Let's have a look at the [Nuxeo Drive]({{page version='' space='nxdoc' page='nuxeo-drive'}}) addon. Nuxeo Drive defines among others a [nuxeo-drive-web-ui](https://github.com/nuxeo/nuxeo-drive-server/tree/8.10/nuxeo-drive-web-ui) bundle deployed in a server by its [marketplace](https://github.com/nuxeo/marketplace-drive/tree/1.6.3).
+Let's have a look at the [Nuxeo Drive]({{page version='' space='nxdoc' page='nuxeo-drive'}}) addon. Nuxeo Drive defines among others a [nuxeo-drive-web-ui](https://github.com/nuxeo/nuxeo-drive-server/tree/8.10/nuxeo-drive-web-ui) bundle deployed in a server by its [marketplace](https://github.com/nuxeo/marketplace-drive/tree/release-1.6.3).
 
 First important point is the [nuxeodrive-webresources-contrib.xml](https://github.com/nuxeo/nuxeo-drive-server/blob/8.10/nuxeo-drive-web-ui/src/main/resources/OSGI-INF/nuxeodrive-webresources-contrib.xml#L16) file which provides the following contribution:
 
@@ -128,7 +128,7 @@ Note that [nuxeo-drive.html](https://github.com/nuxeo/nuxeo-drive-server/blob/8.
 
 For the rest, all [other Drive Web UI resources](https://github.com/nuxeo/nuxeo-drive-server/tree/8.10/nuxeo-drive-web-ui/src/main/resources/web/nuxeo.war/ui/nuxeo-drive) will be deployed in the `$NUXEO_SERVER/nxserver/nuxeo.war/` directory thanks to the [deployment fragment](https://github.com/nuxeo/nuxeo-drive-server/blob/8.10/nuxeo-drive-web-ui/src/main/resources/OSGI-INF/deployment-fragment.xml#L6).
 
-Finally, the [Nuxeo Drive Marketplace](https://github.com/nuxeo/marketplace-drive/tree/1.6.3) has the proper [assembly.xml](https://github.com/nuxeo/marketplace-drive/blob/1.6.3/marketplace/src/main/assemble/assembly.xml#L131) in order to deploy its Web UI resources.
+Finally, the [Nuxeo Drive Marketplace](https://github.com/nuxeo/marketplace-drive/tree/release-1.6.3) has the proper [assembly.xml](https://github.com/nuxeo/marketplace-drive/blob/release-1.6.3/marketplace/src/main/assemble/assembly.xml#L131) in order to deploy its Web UI resources.
 
 {{#> callout type='warning' }}
 
